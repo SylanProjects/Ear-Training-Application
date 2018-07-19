@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="32" tileheight="32" infinite="0" nextobjectid="147">
+ <tileset firstgid="1" source="Color Palette 2.tsx"/>
+ <tileset firstgid="1223" source="Piano Keys.tsx"/>
+ <layer name="Background" width="40" height="23">
+  <data encoding="csv">
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21
+</data>
+ </layer>
+ <layer name="test" width="40" height="23" visible="0">
+  <data encoding="csv">
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="levels" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,20,20,20,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Buttons">
+  <object id="51" name="mouse" x="246" y="-126" width="32" height="32"/>
+  <object id="107" name="s2_level_1" type="level" x="96" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="1"/>
+    <property name="note_1" value="C#5"/>
+    <property name="note_2" value="D5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="111" name="button" x="1353" y="305" width="112" height="96"/>
+  <object id="114" name="score" x="974" y="-132" width="160" height="96"/>
+  <object id="118" name="back" x="1152" y="32" width="96" height="32"/>
+  <object id="119" name="generic level" x="687" y="-162" width="96" height="64">
+   <properties>
+    <property name="level" value=""/>
+    <property name="note_1" value=""/>
+    <property name="note_2" value=""/>
+    <property name="score" value=""/>
+    <property name="stage" value=""/>
+   </properties>
+  </object>
+  <object id="120" name="s2_level_2" type="level" x="256" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="2"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="A#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="121" name="s2_level_3" type="level" x="416" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="3"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="F#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="122" name="s2_level_4" type="level" x="576" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="4"/>
+    <property name="note_1" value="A#4"/>
+    <property name="note_2" value="D#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="123" name="s2_level_5" type="level" x="736" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="5"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="G4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="124" name="s2_level_6" type="level" x="896" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="6"/>
+    <property name="note_1" value="C#5"/>
+    <property name="note_2" value="A4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="125" name="s2_level_6" type="level" x="1056" y="160" width="96" height="64">
+   <properties>
+    <property name="level" value="6"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="F#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="126" name="s2_level_7" type="level" x="96" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="7"/>
+    <property name="note_1" value="G5"/>
+    <property name="note_2" value="C#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="127" name="s2_level_8" type="level" x="256" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="8"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="C#6"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="128" name="s2_level_9" type="level" x="416" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="9"/>
+    <property name="note_1" value="E5"/>
+    <property name="note_2" value="B5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="129" name="s2_level_10" type="level" x="576" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="10"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="G#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="130" name="s2_level_14" type="level" x="96" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="14"/>
+    <property name="note_1" value="F#5"/>
+    <property name="note_2" value="C5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="131" name="s2_level_15" type="level" x="256" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="15"/>
+    <property name="note_1" value="E4"/>
+    <property name="note_2" value="G#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="132" name="s2_level_16" type="level" x="416" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="16"/>
+    <property name="note_1" value="C6"/>
+    <property name="note_2" value="D5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="133" name="s2_level_17" type="level" x="576" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="17"/>
+    <property name="note_1" value="A#6"/>
+    <property name="note_2" value="C5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="134" name="s2_level_18" type="level" x="736" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="18"/>
+    <property name="note_1" value="G4"/>
+    <property name="note_2" value="D#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="135" name="s2_level_19" type="level" x="896" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="19"/>
+    <property name="note_1" value="F4"/>
+    <property name="note_2" value="C4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="136" name="s2_level_20" type="level" x="1056" y="416" width="96" height="64">
+   <properties>
+    <property name="level" value="20"/>
+    <property name="note_1" value="A5"/>
+    <property name="note_2" value="G#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="137" name="s2_level_21" type="level" x="96" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="21"/>
+    <property name="note_1" value="F6"/>
+    <property name="note_2" value="C6"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="138" name="s2_level_22" type="level" x="256" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="22"/>
+    <property name="note_1" value="A#5"/>
+    <property name="note_2" value="D#6"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="139" name="s2_level_23" type="level" x="416" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="23"/>
+    <property name="note_1" value="C5"/>
+    <property name="note_2" value="F#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="140" name="s2_level_24" type="level" x="576" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="24"/>
+    <property name="note_1" value="F4"/>
+    <property name="note_2" value="G5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="141" name="s2_level_11" type="level" x="736" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="11"/>
+    <property name="note_1" value="G#4"/>
+    <property name="note_2" value="D#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="142" name="s2_level_12" type="level" x="896" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="12"/>
+    <property name="note_1" value="B5"/>
+    <property name="note_2" value="F#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="143" name="s2_level_13" type="level" x="1056" y="288" width="96" height="64">
+   <properties>
+    <property name="level" value="13"/>
+    <property name="note_1" value="D#5"/>
+    <property name="note_2" value="F#5"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="144" name="s2_level_25" type="level" x="736" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="25"/>
+    <property name="note_1" value="C#4"/>
+    <property name="note_2" value="A#4"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="145" name="s2_level_26" type="level" x="896" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="26"/>
+    <property name="note_1" value="G6"/>
+    <property name="note_2" value="D6"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+  <object id="146" name="s2_level_27" type="level" x="1056" y="544" width="96" height="64">
+   <properties>
+    <property name="level" value="27"/>
+    <property name="note_1" value="D#6"/>
+    <property name="note_2" value="A#6"/>
+    <property name="score" value="100"/>
+    <property name="stage" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
